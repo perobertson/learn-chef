@@ -1,9 +1,9 @@
-name             'web_application'
+name             'awesome_customers'
 maintainer       'The Authors'
 maintainer_email 'you@example.com'
 license          'all_rights'
-description      'Installs/Configures web_application'
-long_description 'Installs/Configures web_application'
+description      'Installs/Configures awesome_customers'
+long_description 'Installs/Configures awesome_customers'
 version          '0.3.0'
 
 depends 'apache2', '~> 3.0.1'

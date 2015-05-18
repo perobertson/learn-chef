@@ -1,9 +1,9 @@
 #
-# Cookbook Name:: web_application
+# Cookbook Name:: awesome_customers
 # Recipe:: default
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
 include_recipe 'selinux::permissive'
-include_recipe 'web_application::user'
-include_recipe 'web_application::webserver'
-include_recipe 'web_application::database'
+include_recipe 'awesome_customers::user'
+include_recipe 'awesome_customers::webserver'
+include_recipe 'awesome_customers::database'

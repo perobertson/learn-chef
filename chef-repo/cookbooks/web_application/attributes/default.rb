@@ -1,19 +1,19 @@
-default['web_application']['user'] = 'web_admin'
-default['web_application']['group'] = 'web_admin'
+default['awesome_customers']['user'] = 'web_admin'
+default['awesome_customers']['group'] = 'web_admin'
 
-default['web_application']['name'] = 'customers'
-default['web_application']['config'] = 'customers.conf'
+default['awesome_customers']['name'] = 'customers'
+default['awesome_customers']['config'] = 'customers.conf'
 
 default['apache']['docroot_dir'] = '/srv/apache/customers'
 
 default['iptables']['install_rules'] = false
 
-default['web_application']['passwords']['secret_path'] = '/etc/chef/encrypted_data_bag_secret'
+default['awesome_customers']['passwords']['secret_path'] = '/etc/chef/encrypted_data_bag_secret'
 
-default['web_application']['database']['dbname'] = 'products'
-default['web_application']['database']['host'] = '127.0.0.1'
-default['web_application']['database']['username'] = 'root'
+default['awesome_customers']['database']['dbname'] = 'products'
+default['awesome_customers']['database']['host'] = '127.0.0.1'
+default['awesome_customers']['database']['username'] = 'root'
 
-default['web_application']['database']['app']['username'] = 'db_admin'
+default['awesome_customers']['database']['app']['username'] = 'db_admin'
 
-default['web_application']['database']['seed_file'] ='/tmp/create-tables.sql'
+default['awesome_customers']['database']['seed_file'] ='/tmp/create-tables.sql'

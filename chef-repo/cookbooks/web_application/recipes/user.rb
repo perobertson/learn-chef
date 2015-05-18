@@ -1,12 +1,12 @@
 #
-# Cookbook Name:: web_application
+# Cookbook Name:: awesome_customers
 # Recipe:: user
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
-group node['web_application']['group']
+group node['awesome_customers']['group']
 
-user node['web_application']['user'] do
-  group node['web_application']['group']
+user node['awesome_customers']['user'] do
+  group node['awesome_customers']['group']
   system true
   shell '/bin/bash'
 end
