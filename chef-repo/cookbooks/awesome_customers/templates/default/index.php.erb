@@ -16,10 +16,10 @@
 </head>
 <body>
 <?php
-$servername = "<%= node['web_application']['database']['host'] %>";
-$username = "<%= node['web_application']['database']['app']['username'] %>";
+$servername = "<%= node['awesome_customers']['database']['host'] %>";
+$username = "<%= node['awesome_customers']['database']['app']['username'] %>";
 $password = "<%= @database_password %>";
-$dbname = "<%= node['web_application']['database']['dbname'] %>";
+$dbname = "<%= node['awesome_customers']['database']['dbname'] %>";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

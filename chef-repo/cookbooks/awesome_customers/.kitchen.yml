@@ -12,5 +12,5 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[web_application::default]
+      - recipe[awesome_customers::default]
     attributes:
